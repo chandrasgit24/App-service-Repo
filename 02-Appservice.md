@@ -7,50 +7,34 @@ Azure App Service is a fully managed Platform-as-a-Service (PaaS) offering from 
 
 ### **Task 1: Create App Service Plan**
 1. Search for "App Services" In the Azure Portal top search bar, type "App Services" and select it from the dropdown.
-(Screenshot: Highlight search bar with "App Services" typed)
+   ![](Images/2.png)
+   ![](Images/4.png)
 
-1. Click "+ Create" On the App Services page, click the "+ Create" button.
-(Screenshot: "+ Create" button highlighted)
+1. Click "+ Create" On the App Services page, click the "+ Create" button.Select "Web App" Choose "Web App" from the creation options.
+   ![](Images/7.png)  
 
-1. Select "Web App" Choose "Web App" from the creation options.
-(Screenshot: "Web App" tile selected)
-
-1. Subscription & Resource Group select the Subscription innov8 and Resource Group: Select the pre-created lab RG (e.g., Spektra-WebApp-Lab-RG).
-(Screenshot: Dropdown with selected RG)
-
-1. Name Your Web App Enter a globally unique name (e.g., webapp-[yourinitials]-001).
-
+1. Subscription & Resource Group select the Subscription innov8 and Resource Group: Select the pre-created lab RG (e.g., Spektra-WebApp-Lab-RG).1. Name Your Web App Enter a globally unique name (e.g., webapp-[yourinitials]-001).
 Note: Azure will validate availability with a green checkmark.
-(Screenshot: Name field with validation check)
+   ![](Images/8.png)
 
-Runtime Stack
-
-Publish: Code (default)
-
-Runtime stack: Select Node.js 18 LTS (or your lab’s specified stack).
-(Screenshot: Runtime dropdown with Node.js 18 selected)
-
+1. Runtime Stack Publish: Code (default) Runtime stack: Select Node.js 18 LTS (or your lab’s specified stack).
 Operating System
-
-Select Linux (or Windows if specified in lab).
-(Screenshot: OS toggle with Linux selected)
-
-Region
-
-Choose the region closest to you (e.g., East US).
-(Screenshot: Region dropdown with "East US" selected)
+Select Linux (or Windows if specified in lab).Region Choose the region closest to you (e.g., East US).
+   ![](Images/9.png)
+   ![](Images/10.png)
+   ![](Images/11.png)
+   ![](Images/12.png)
+   ![](Images/13.png) 
+   ![](Images/14.png)
+   ![](Images/15.png)
 
 Task 3: Create and Set Up App Service Plan
-Create New App Service Plan
-
-Click "Create new" under App Service Plan.
-(Screenshot: "Create new" link highlighted)
-
-Plan Name
-
-Enter a name (e.g., ASP-SpektraLab-001).
-(Screenshot: Plan name field filled)
-
+Create New App Service Plan Click "Create new" under App Service Plan. Plan Name Enter a name (e.g., ASP-SpektraLab-001).
+   ![](Images/16.png)
+   ![](Images/17.png)
+   ![](Images/18.png)
+   ![](Images/19.png)
+   ![](Images/20.png)
 Pricing Tier
 
 Select Free (F1) for the lab.
@@ -81,11 +65,9 @@ Wait for the green "Deployment complete" notification (~1-2 mins).
 (Screenshot: Deployment progress bar and success notification)
 
 Task 5: Access Your Web App
-Go to Resource
-
-Click "Go to resource" post-deployment.
-(Screenshot: Post-deployment "Go to resource" button)
-
+Go to Resource Click "Go to resource" post-deployment.
+   ![](Images/21.png)  
+   ![](Images/22.png)
 Test Default Page
 
 Under the "Overview" tab, click the URL (e.g., https://webapp-[yourinitials]-001.azurewebsites.net).
