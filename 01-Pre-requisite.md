@@ -1,23 +1,28 @@
 # Pre-requisites to Deploy a Web App Using Azure App Service
+### 1. Access Requirements
+- Valid CloudLabs Credentials – You must have an active Spektra Systems CloudLabs account with Azure access.
+- Assigned Azure Subscription – CloudLabs provides a pre-configured Azure subscription for training.
+- Required Permissions – Your lab account has Contributor access to deploy and manage Azure resources.
+  
 
-To deploy a web app on Azure App Service, you need the following:
-- An Active Azure Subscription
-  You must have a valid Azure subscription (Pay-As-You-Go, Free Trial, or Visual Studio Benefits).
+### 2. Azure Resources Pre-Configured in CloudLabs
+The lab environment already includes:
+- An Azure Active Directory (AAD) tenant for identity management.
+- A Resource Group where you’ll deploy the App Service.
+- Networking policies allowing outbound internet access for deployments.
+  
 
-If you don’t have one, you can create a free Azure account.
-- Required Permissions
-  Contributor or Owner role on the Azure subscription (to create & manage resources).
+### 3. Development & Deployment Requirements
+- Web Application Code – You can use:
+- A sample app (provided in the lab) or your own code.
+- Supported languages: .NET, Node.js, Python, Java, PHP, or static HTML.
+- Deployment Method (Choose one):
+- GitHub/Azure Repos (for CI/CD).
+- Direct ZIP deploy (manual upload).
 
-If using Azure Active Directory (AAD) for authentication, ensure you have permissions to register apps.
-- Code or Sample Application
-  A web application (e.g., .NET, Node.js, Python, Java, PHP, or static HTML).
+Docker Container (if using containers).
 
-You can use:
-A sample app from GitHub (e.g., Azure Samples).
-Your own local code repository.
-A Docker container (if deploying as a containerized app).
-
-# Lab Environment Notes
+## Lab Environment Notes
 In this lab, we’ll use:
 - Azure App Service (Windows/Linux) for hosting.
 - GitHub/Azure Repos for deployment (alternatively, direct upload).
