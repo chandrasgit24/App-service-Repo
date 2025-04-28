@@ -1,4 +1,4 @@
-# Overview: Deploying a Web App Using Azure App Service #
+# Overview : Deploying a Web App Using Azure App Service #
 Azure App Service is a fully managed platform for building, deploying, and scaling web apps. It supports multiple languages (like .NET, Java, Node.js, Python, and PHP) and integrates with DevOps tools for continuous deployment.
 
 ## **General Hierarchy**
@@ -13,3 +13,6 @@ Azure App Service is a fully managed platform for building, deploying, and scali
 - Built-in Security – HTTPS, authentication, and compliance certifications.
 - High Availability – Runs on Azure’s global infrastructure with auto-patching.
 - Cost-Effective – Pay only for the resources you use.
+
+ ## **Summary**
+ By the end of this lab, you’ll have a fully functional web app deployed on Azure App Service with security, scaling, and monitoring configured.
