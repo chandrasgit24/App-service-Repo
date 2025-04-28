@@ -7,8 +7,87 @@ Azure App Service is a fully managed Platform-as-a-Service (PaaS) offering from 
 
 ### **Task 1: Create App Service Plan**
 1. Search for "App Services" In the Azure Portal top search bar, type "App Services" and select it from the dropdown.
-   
+(Screenshot: Highlight search bar with "App Services" typed)
 
-1. Click "+ Create" On the App Services page, click the "+ Create" button
+1. Click "+ Create" On the App Services page, click the "+ Create" button.
+(Screenshot: "+ Create" button highlighted)
 
-1. Select "Web App"Choose "Web App" from the creation options.
+1. Select "Web App" Choose "Web App" from the creation options.
+(Screenshot: "Web App" tile selected)
+
+1. Subscription & Resource Group select the Subscription innov8 and Resource Group: Select the pre-created lab RG (e.g., Spektra-WebApp-Lab-RG).
+(Screenshot: Dropdown with selected RG)
+
+1. Name Your Web App Enter a globally unique name (e.g., webapp-[yourinitials]-001).
+
+Note: Azure will validate availability with a green checkmark.
+(Screenshot: Name field with validation check)
+
+Runtime Stack
+
+Publish: Code (default)
+
+Runtime stack: Select Node.js 18 LTS (or your lab’s specified stack).
+(Screenshot: Runtime dropdown with Node.js 18 selected)
+
+Operating System
+
+Select Linux (or Windows if specified in lab).
+(Screenshot: OS toggle with Linux selected)
+
+Region
+
+Choose the region closest to you (e.g., East US).
+(Screenshot: Region dropdown with "East US" selected)
+
+Task 3: Create and Set Up App Service Plan
+Create New App Service Plan
+
+Click "Create new" under App Service Plan.
+(Screenshot: "Create new" link highlighted)
+
+Plan Name
+
+Enter a name (e.g., ASP-SpektraLab-001).
+(Screenshot: Plan name field filled)
+
+Pricing Tier
+
+Select Free (F1) for the lab.
+
+Note: For production, use Premium tiers.
+(Screenshot: Pricing tier blade with "Free F1" selected)
+
+Click "OK"
+
+Confirm the plan settings.
+(Screenshot: "OK" button highlighted)
+
+Task 4: Review + Create
+Skip Tags (Lab Only)
+
+Tags are optional for this lab.
+
+Click "Review + Create"
+
+Validate all settings.
+(Screenshot: "Review + create" button highlighted)
+
+Deploy
+
+Click "Create" to deploy.
+
+Wait for the green "Deployment complete" notification (~1-2 mins).
+(Screenshot: Deployment progress bar and success notification)
+
+Task 5: Access Your Web App
+Go to Resource
+
+Click "Go to resource" post-deployment.
+(Screenshot: Post-deployment "Go to resource" button)
+
+Test Default Page
+
+Under the "Overview" tab, click the URL (e.g., https://webapp-[yourinitials]-001.azurewebsites.net).
+
+A default "Your App Service app is up and running" page should load.
