@@ -7,10 +7,9 @@ Azure App Service is a fully managed Platform-as-a-Service (PaaS) offering from 
 
 ### **Task 1: Create App Service Plan**
 1. Search for "App Services" In the Azure Portal top search bar, type "App Services" and select it from the dropdown.
-   ![](Images/2.png)
-   ![](Images/4.png)
+   ![](Images/22.png)
 
-1. Click "+ Create" On the App Services page, click the "+ Create" button.Select "Web App" Choose "Web App" from the creation options.
+1. Click + "Create" On the App Services page, click the + "Create" button.Select "Web App" Choose "Web App" from the creation options.
    ![](Images/7.png)  
 
 1. Subscription & Resource Group select the Subscription innov8 and Resource Group: Select the pre-created lab RG (e.g., Spektra-WebApp-Lab-RG).1. Name Your Web App Enter a globally unique name (e.g., webapp-[yourinitials]-001).
