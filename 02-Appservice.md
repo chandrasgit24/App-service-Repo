@@ -45,43 +45,24 @@ Now Click on next and Go for the networking part
    ![](Images/15.png)
 
 ### **Task 2: Create and Set Up App Service Plan**
-Task 2: Create and Set Up App Service Plan
-Create New App Service Plan Click "Create new" under App Service Plan. Plan Name Enter a name (e.g., ASP-SpektraLab-001).
+App Service plans give you the flexibility to allocate specific apps to a given set of resources and further optimize your Azure resource utilization. This way, if you want to save money on your testing environment you can share a plan across multiple apps.
+
+1. Create New App Service Plan Click "Create new" under App Service Plan. Plan Name Enter a name (e.g., ASP-SpektraLab-001).
    ![](Images/16.png)
+
+1. Select the Subcription and resource group and enter the name as App service and select the region as west US
    ![](Images/17.png)
+
+1. Now select the Prizing plan as Premium V3 P1V3 and select review+Create
    ![](Images/18.png)
+
+1. So the Deployment will be completed as shown in figure and Wait for the green "Deployment complete" notification (~1-2 mins)
    ![](Images/19.png)
+   
+Task 3: Access Your Web App Go to Resource Click "Go to resource" post-deployment.
    ![](Images/20.png)
-Pricing Tier
 
-Select Free (F1) for the lab.
-
-Note: For production, use Premium tiers.
-(Screenshot: Pricing tier blade with "Free F1" selected)
-
-Click "OK"
-
-Confirm the plan settings.
-(Screenshot: "OK" button highlighted)
-
-Task 4: Review + Create
-Skip Tags (Lab Only)
-
-Tags are optional for this lab.
-
-Click "Review + Create"
-
-Validate all settings.
-(Screenshot: "Review + create" button highlighted)
-
-Deploy
-
-Click "Create" to deploy.
-
-Wait for the green "Deployment complete" notification (~1-2 mins).
-(Screenshot: Deployment progress bar and success notification)
-
-Task 5: Access Your Web App
+  Task 3: Access Your Web App
 Go to Resource Click "Go to resource" post-deployment.
    ![](Images/21.png)  
    ![](Images/22.png)
