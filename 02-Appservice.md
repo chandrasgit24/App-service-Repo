@@ -16,10 +16,22 @@ Azure App Service is a fully managed Platform-as-a-Service (PaaS) offering from 
 Note: Azure will validate availability with a green checkmark.
    ![](Images/8.png)
 
-1. Operating System : Select Linux (or Windows if specified in lab).Region Choose the region closest to you (e.g., West US). And Create a New Linux Plan and the prizing plan as Primium V3 POV3 to perform. And Click on for Next Database for the Next Step.
+1. Operating System : Select Linux (or Windows if specified in lab).Region : Choose the region closest to you (e.g., West US). And Create a New Linux Plan and the prizing plan as Primium V3 POV3 to perform. And Click on for Next Database for the Next Step.
    ![](Images/9.png)
+   
+1. In the Create a Database Option No need to click on create a database Option leave it as default and go for the deployment section
    ![](Images/10.png)
+   
+
+1. Now, In the continuous Deployment section : Enable the Deployment section and after that Set up GitHub Actions to push content to your app whenever there are code changes made to your repository. Note: Your GitHub account must have write access to the selected repository in order to add a workflow file which manages deployments to your app.
+- Give the github account Details
+- Enter your Github organization Details
+- Select the repository which you have stored your script
+- Select the branch (Ex: main bracnch/Feature Branch)
+Now Click on next and Go for the networking part
    ![](Images/11.png)
+
+  
    ![](Images/12.png)
    ![](Images/13.png) 
    ![](Images/14.png)
