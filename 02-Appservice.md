@@ -60,9 +60,6 @@ App Service plans give you the flexibility to allocate specific apps to a given 
    ![](Images/19.png)
 
 ### **Task 3: Access Your Web App**
-1. Go to Resource Click "Go to resource" post-deployment.
+1. Go to Resource Click "Go to resource" post-deployment. Test Default Page Under the "Overview" tab, click the URL (e.g., https://webapp-[yourinitials]-001.azurewebsites.net). A default "Your App Service app is up and running" page should load as shown in figure below.
    ![](Images/20.png)
-
-1. Test Default Page Under the "Overview" tab, click the URL (e.g., https://webapp-[yourinitials]-001.azurewebsites.net). A default "Your App Service app is up and running" page should load.
    ![](Images/21.png)  
-   ![](Images/22.png)
