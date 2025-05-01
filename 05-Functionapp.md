@@ -27,3 +27,8 @@ Region: Choose the closest region.
 Leave other options as default.
 
 Click "Review + create", then "Create".
+
+
+
+
+Create a function app, which lets you group functions as a logical unit for easier management, deployment and sharing of resources. Functions lets you execute your code in a serverless environment without having to first create a VM or publish a web application.
