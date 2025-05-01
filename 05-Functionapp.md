@@ -8,6 +8,8 @@ In this lab, you will implement an Azure Function that automatically triggers wh
 - A Resource Group available to deploy resources.
 
 ### **Task 1: Create a Storage Account**
+Azure Storage is a Microsoft-managed service providing cloud storage that is highly available, secure, durable, scalable, and redundant. Azure Storage includes Azure Blobs (objects), Azure Data Lake Storage Gen2, Azure Files, Azure Queues, and Azure Tables. The cost of your storage account depends on the usage and the options you choose below
+
 In the Azure Portal, click "Create a resource". Search for "Storage account" and select it.
 
 Click "Create".
