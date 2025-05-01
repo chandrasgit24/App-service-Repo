@@ -34,3 +34,10 @@ The lab environment includes the following pre-configured resources:
 - Azure Portal (inline editor or upload).
 - VS Code with Azure Functions extension.
 - GitHub Actions or Azure DevOps (for CI/CD pipelines).
+
+### 5. Lab Environment Notes
+In this lab, we will:
+- Use Azure Blob Storage to upload image files.
+- Implement an Azure Function App with a Blob Trigger.
+- Log image name and size using Application Insights or the Azure Monitor logs.
+- Operate within the Consumption Plan for scalability and cost optimization.
