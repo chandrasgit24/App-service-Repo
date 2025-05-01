@@ -33,10 +33,52 @@ Azure Storage is a Microsoft-managed service providing cloud storage that is hig
 1. After deployment, go to the Storage Account. In the left menu on the overview section, click "Containers" under Data storage.
    ![](Images2/6.png)
   
-2. Name it e.g., images, and set Public access level to Private.Click "Create".
+1. Name it e.g., images, and set Public access level to Private.Click "Create".
    ![](Images2/7.png)
 
-
-
-  
+### **Task 3: Create a Function App**
 Create a function app, which lets you group functions as a logical unit for easier management, deployment and sharing of resources. Functions lets you execute your code in a serverless environment without having to first create a VM or publish a web application.
+
+1. Click "Create a resource" > search for "Function App" > select and click "Create".
+   ![](Images2/8.png)
+
+1. On the Basics tab:
+-   Type : consumption and click on next part
+    ![](Images2/10.png)
+-   Subscription: Select yours.
+-   Resource Group: Use the same one.
+-   Function App name: e.g., imgtriggerfunc123 (unique).
+-   Publish: Code.
+-   Runtime stack: Python or .NET (Python preferred for simplicity).
+-   Version: Latest available.
+-   Region: Same as storage account.
+-   Click on next storage account part
+    ![](Images2/11.png)
+
+On the Hosting tab:
+-   Storage account: Select the storage account you created.Leave the rest as default click on > Review + Create > Create,
+    ![](Images2/12.png)
+    
+    Your Deployment will be completed as shown in fig.
+    ![](Images2/13.png)
+
+
+### **Task 4: Add a Blob Trigger Function**
+-   Go to your Function App. and in overview section Click "Functions" > + create function.
+    ![](Images2/14.png)
+    
+-   Choose "Select a template" > Click "Continue".Select "Blob trigger" > and click on Next Continue.
+    ![](Images2/15.png)
+    
+-   Fill the form:
+-   Job Type : Default
+-   Function name: e.g., LogImageInfo.
+-   Path: images/{name} (match the container name).
+-   Storage account connection: Select the existing one, Click Create.
+    ![](Images2/16.png)
+
+### **Task 5: Function Code**
+-   Go to your new function (LogImageInfo). Click "Code + Test". You can see the default code with the following example (Python): Click on save and go to storage account part.
+    ![](Images2/17.png)
+
+
