@@ -82,3 +82,20 @@ On the Hosting tab:
     ![](Images2/17.png)
 
 
+### **Task 6: Test the Trigger**
+-   Go back to your Storage Account >overview >images  Containers.
+    ![](Images2/18.png)
+
+-   Click "Upload" > Select a small image file (.jpg, .png).Click "Upload".
+    ![](Images2/19.png)
+
+### **Task 7: Verify Logs in Azure Portal**
+-   Go to Function App >Overview> Functions > LogImageInfo.Click "Logs" to view output.
+
+Verify:
+Image name is logged.
+Image size is logged.
+   ![](Images2/21.png)
+
+Click "Logs" to view output Expected Output. A successful trigger execution when an image is uploaded.Logged information with: Image file name.Image file size in bytes.
+   ![](Images2/20.png)
