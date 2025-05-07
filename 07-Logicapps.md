@@ -1,5 +1,26 @@
 # Exercise 1: Create a Logic App that Trigers and Sends an email to yourself with the message: "Hello from Logic Apps"!
 
+## Introduction
+Azure Logic Apps is a cloud-based service that allows you to automate workflows and integrate systems and services — all without writing any code. It enables you to connect to hundreds of services like email, databases, file systems, Microsoft Teams, SharePoint, and more, using a simple visual designer.
+
+In this lab, you will learn how to create a Logic App that automatically sends an email every minute. This hands-on exercise introduces the core concepts of Logic Apps such as triggers, actions, and workflow monitoring.
+
+This is an ideal starting point for users who want to:Build automated workflows
+Send alerts, notifications, or approvals
+Integrate cloud services in a no-code/low-code environment
+
+## Pre-requisites to Use Azure Logic Apps
+1. **Access Requirements**
+Azure Account: You must have access to a valid Azure subscription.
+Contributor Role: Your account should have Contributor or higher permissions to create and manage Logic Apps and related resources.
+
+2. **Resource Setup**
+Azure Resource Group: A resource group should be available (or you can create a new one) to contain your Logic App.
+Region Selection: Choose a supported Azure region when creating your Logic App (e.g., East US, West Europe).
+
+3. **Connectivity & Services Internet Access**: Required to connect Logic Apps with external services like Outlook, Gmail, Teams, etc.
+Email Account: You need a valid Outlook (Office 365) or Gmail account to test email-based Logic App workflows.
+
 ## Step 1: Sign in to Azure Portal
 1. Open a Chrome browser and go to: https://portal.azure.com. Log in using your Azure credentials.
    ![](Images3/1.png)
