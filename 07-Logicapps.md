@@ -29,3 +29,26 @@
 
 1. Enter the interval as 1 and Frequency in Minutes and click on save
    ![](Images3/9.png)
+
+1. Now Add an Action to Send Email using Gmail
+
+   ![](Images3/10.png)
+
+1.
+-   Search for Gmail
+-   Select Send email (Gmail)
+-   Sign in and allow access
+
+    ![](Images3/11.png)
+
+1. Configure Email Details Fill in the following details: Connection name: Enter you connection name Eg:chandra.  Authenticator type : Bring your own application. Client ID: Your own email address. Give the secret pass and click on sign in
+   ![](Images3/13.png)
+
+1. Fill in the following details: To: Your own email address. Subject: Test Email from Logic App. Body: Hello from Logic Apps! This is chandra
+   ![](Images3/15.png)
+
+1. After that click on save and go for next step
+![](Images3/16.png)
+
+1. 
+   
