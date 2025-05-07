@@ -13,7 +13,7 @@
 | Field          | Value                        |
 | -------------- | ---------------------------- |
 | Subscription   | (Select your subscription)   |
-| Resource Group | Create new (e.g., `LogicRG`) |
+| Resource Group | select existing (e.g., `LogicRG`) |
 | Logic App Name | `SendEmailApp`               |
 | Region         | East US      |
 
