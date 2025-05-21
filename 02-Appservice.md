@@ -9,14 +9,14 @@ Azure App Service is a fully managed Platform-as-a-Service (PaaS) offering from 
 1. Search for "App Services" In the Azure Portal top search bar, type "App Services" and select it from the dropdown.
    ![](Images/22.png)
 
-1. Click + "Create" On the App Services page, click the + "Create" button, Select "Web App" Choose "Web App" from the creation options.
+1. Click + "Create" On the App Services page, click the + Web app button, from the creation options.
    ![](Images/7.png)  
 
 1. Subscription & Resource Group : Select the Subscription innov8 and Resource Group: Select the pre-created lab RG (e.g., chandra.shekar1999-RG). Name Your Web App Enter a globally unique name (e.g., webapp-[yourinitials]-001). Runtime Stack Publish: Code (default) Runtime stack: Select Node.js 18 LTS (or your lab’s specified stack).
 Note: Azure will validate availability with a green checkmark.
    ![](Images/8.png)
 
-1. Operating System : Select Linux (or Windows if specified in lab).Region : Choose the region closest to you (e.g., West US). And Create a New Linux Plan and the prizing plan as Primium V3 POV3 to perform. And Click on for Next Database for the Next Step.
+1. Operating System : Select Linux/(Windows if specified in lab) Region : Choose the region closest to you (e.g., West US) And Create a New Linux Plan and the prizing plan as Primium V3 POV3 to perform And Click Next Database for the Next Step.
    ![](Images/9.png)
    
 1. In the Create a Database Option No need to click on create a database Option leave it as default and go for the deployment section
