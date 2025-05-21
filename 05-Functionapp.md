@@ -33,7 +33,7 @@ Azure Storage is a Microsoft-managed service providing cloud storage that is hig
 1. After deployment, go to the Storage Account. In the left menu on the overview section, click "Containers" under Data storage.
    ![](Images2/6.png)
   
-1. click on container and crete it by giving Name e.g:images, and set Public access level to Private.Click "Create".
+1. Click on container and create it by giving Name e.g:images, and set Public access level to Private.Click "Create".
    ![](Images2/7.png)
 
 ### **Task 3: Create a Function App**
@@ -59,7 +59,7 @@ Create a function app, which lets you group functions as a logical unit for easi
 -   Storage account: Select the storage account you created.Leave the rest as default click on > Review + Create > Create,
     ![](Images2/12.png)
     
-    Your Deployment will be completed as shown in fig.
+-   Wait for Deployment to complete, after deployment you can see the succesful deployment as shown in fig.
     ![](Images2/13.png)
 
 
@@ -90,7 +90,7 @@ Create a function app, which lets you group functions as a logical unit for easi
     ![](Images2/19.png)
 
 ### **Task 7: Verify Logs in Azure Portal**
--   Go to Function App > Overview > Functions > LogImageInfo.Click "Logs" to view output.
+-   Go to Function App > Overview > Functions > LogImageInfo. Click "Logs" to view output.
 
 - Verify: Image name is logged.Image size is logged.
   ![](Images2/21.png)
