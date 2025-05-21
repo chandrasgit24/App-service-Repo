@@ -13,7 +13,7 @@ Azure Storage is a Microsoft-managed service providing cloud storage that is hig
 1. In the Azure Portal click on search bar and Search for "Storage account" and select it.
    ![](Images2/1.png)
 
-1. In 2nd Step Click on create "Create".
+1. In 2nd Step Click on "Create"option.
    ![](Images2/2.png)
    
 1. Fill in the details: In basic Tab
