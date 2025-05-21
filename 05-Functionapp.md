@@ -33,7 +33,7 @@ Azure Storage is a Microsoft-managed service providing cloud storage that is hig
 1. After deployment, go to the Storage Account. In the left menu on the overview section, click "Containers" under Data storage.
    ![](Images2/6.png)
   
-1. Name it e.g., images, and set Public access level to Private.Click "Create".
+1. click on container and crete it by giving Name e.g:images, and set Public access level to Private.Click "Create".
    ![](Images2/7.png)
 
 ### **Task 3: Create a Function App**
