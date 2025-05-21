@@ -55,10 +55,7 @@ Email Account: You need a valid Outlook (Office 365) or Gmail account to test em
 
    ![](Images3/10.png)
 
-1.
--   Search for Gmail
--   Select Send email (Gmail)
--   Sign in and allow access
+1. Search for Gmail, Select Send email v2 (Gmail) and Sign in and allow access
 
     ![](Images3/11.png)
 
