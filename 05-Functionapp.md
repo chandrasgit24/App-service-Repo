@@ -55,7 +55,7 @@ Create a function app, which lets you group functions as a logical unit for easi
 -   Click on next storage account part
     ![](Images2/11.png)
 
-On the Hosting tab:
+    On the Hosting tab:
 -   Storage account: Select the storage account you created.Leave the rest as default click on > Review + Create > Create,
     ![](Images2/12.png)
     
@@ -64,7 +64,7 @@ On the Hosting tab:
 
 
 ### **Task 4: Add a Blob Trigger Function**
--   Go to your Function App. and in overview section Click "Functions" > + create function.
+-   Go to your Function App, and in overview section Click "Functions" > + create function.
     ![](Images2/14.png)
     
 -   Choose "Select a template" > Click "Continue".Select "Blob trigger" > and click on Next Continue.
@@ -83,19 +83,17 @@ On the Hosting tab:
 
 
 ### **Task 6: Test the Trigger**
--   Go back to your Storage Account >overview >images  Containers.
+-   Go back to your Storage Account > overview > images > Containers.
     ![](Images2/18.png)
 
--   Click "Upload" > Select a small image file (.jpg, .png).Click "Upload".
+-   Click "Upload" > Select a small image file (.jpg/.png) Click "Upload".
     ![](Images2/19.png)
 
 ### **Task 7: Verify Logs in Azure Portal**
--   Go to Function App >Overview> Functions > LogImageInfo.Click "Logs" to view output.
+-   Go to Function App > Overview > Functions > LogImageInfo.Click "Logs" to view output.
 
-Verify:
-Image name is logged.
-Image size is logged.
-   ![](Images2/21.png)
+- Verify: Image name is logged.Image size is logged.
+  ![](Images2/21.png)
 
-Click "Logs" to view output Expected Output. A successful trigger execution when an image is uploaded.Logged information with: Image file name.Image file size in bytes.
-   ![](Images2/20.png)
+- Click "Logs" to view output. Expected Output: successful trigger will be executed when an image is uploaded, Logged information with Image file name and Image file size in bytes.
+  ![](Images2/20.png)
